@@ -350,6 +350,18 @@ a { text-decoration: none; color: inherit; }
     margin: 0 auto 0.5rem;
 }
 
+.img-placeholder img,
+.hero-image img,
+.about-image img,
+.menu-card-img img,
+.cake-card-img img,
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 /* ============================================
    GRID SYSTEM
    ============================================ */
